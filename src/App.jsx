@@ -2,7 +2,7 @@ import { HeroVideo } from './components'
 
 function App() {
   return (
-    <div>
+    <div className='px-4'>
       <HeroVideo/>
     </div>
   )
