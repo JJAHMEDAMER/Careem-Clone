@@ -1,4 +1,4 @@
-import { HeroVideo, Categories, InfoSection } from './components'
+import { HeroVideo, Categories, InfoSection, Blog } from './components'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       </div>
       <div className='flex flex-col gap-6'>
         <InfoSection />
+        <Blog />
       </div>
     </div>
   )
