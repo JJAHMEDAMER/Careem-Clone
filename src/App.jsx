@@ -1,10 +1,15 @@
-import { HeroVideo, Categories } from './components'
+import { HeroVideo, Categories, InfoSection } from './components'
 
 function App() {
   return (
-    <div className='px-4'>
-      <HeroVideo/>
-      <Categories/>
+    <div className='flex flex-col gap-6'>
+      <div className='px-4 flex flex-col gap-6'>
+        <HeroVideo />
+        <Categories />
+      </div>
+      <div className='flex flex-col gap-6'>
+        <InfoSection />
+      </div>
     </div>
   )
 }

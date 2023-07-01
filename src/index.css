@@ -10,5 +10,17 @@
 *,
 *::after,
 *::before {
-    font-family: CareemSans, Sans, sans-serif;
+    font-family: Montserrat, CareemSans, Sans, sans-serif;
+}
+
+.bg-shape {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(204.49deg, #00e784 9.64%, #a6edf2 93.8%);
+    -webkit-mask-image: url(./assets/clip.png);
+    mask-image: url(./assets/clip.png);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
