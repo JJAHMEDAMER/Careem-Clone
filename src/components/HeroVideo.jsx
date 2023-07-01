@@ -1,3 +1,5 @@
+import careemVideo from "../assets/careem_video.mp4"
+
 export const HeroVideo = () => {
     return (
         <section>
@@ -5,7 +7,7 @@ export const HeroVideo = () => {
                 muted autoPlay playsInline loop
                 className="rounded-3xl aspect-4/3 object-cover"
             >
-                <source src="careem_video.mp4" type="video/mp4" />
+                <source src={careemVideo} type="video/mp4" />
             </video>
         </section>
     )
