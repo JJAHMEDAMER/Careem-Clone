@@ -13,6 +13,7 @@ export default {
         green: "#00493e",
         purple: "#7f5ffa",
         paleGreen: "#d6ffea",
+        limeGreen: "#00eb79",
       },
     },
   },
