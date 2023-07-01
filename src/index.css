@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: CareemSans;
+    src: url(./assets/font/careem_regular.otf);
+}
+
+*,
+*::after,
+*::before {
+    font-family: CareemSans, Sans, sans-serif;
+}
