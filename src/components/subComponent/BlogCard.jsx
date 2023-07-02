@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const InfoCard = ({ imgURL, imgAlt = null, title, para }) => {
+export const BlogCard = ({ imgURL, imgAlt = null, title, para }) => {
     return (
         <div className='flex flex-col gap-3 flex-shrink-0 w-64'>
             <img

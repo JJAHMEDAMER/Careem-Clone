@@ -1,5 +1,5 @@
 import React from 'react'
-import { InfoCard } from './subComponent/InfoCard'
+import { BlogCard } from './subComponent/BlogCard'
 import rightArrow from "../assets/arrow_right.png"
 
 export const Blog = () => {
@@ -34,7 +34,7 @@ export const Blog = () => {
             <div className='w=full flex gap-4 pl-4 overflow-x-auto overflow-y-hidden scroll-smooth hide-scroll-bar'>
                 {
                     blogs.map((item, index) => (
-                        <InfoCard
+                        <BlogCard
                             key={index}
                             imgURL={item.imgURL}
                             title={item.title}

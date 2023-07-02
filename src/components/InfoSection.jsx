@@ -10,9 +10,11 @@ export const InfoSection = () => {
                     alt="Office Image"
                     className='rounded-xl'
                 />
-                <h2 className='text-2xl font-semibold'>About us</h2>
-                <p className='text-sm'>Lorem ipsum dolor sit amet iusto aspernatur accusamus illum doloremque, consequatur dolorem, numquam ipsa quos reprehenderit atque iure? Exercitationem, deleniti quam!</p>
-                <Button />
+                <div>
+                    <h2 className='text-2xl font-semibold'>About us</h2>
+                    <p className='text-sm'>Lorem ipsum dolor sit amet iusto aspernatur accusamus illum doloremque, consequatur dolorem, numquam ipsa quos reprehenderit atque iure? Exercitationem, deleniti quam!</p>
+                    <Button />
+                </div>
             </div>
             <div className='bg-shape'>
                 <div className='flex flex-col gap-4 px-4 md:px-36'>
@@ -23,7 +25,7 @@ export const InfoSection = () => {
                     />
                     <h2 className='text-2xl font-semibold'>Captains</h2>
                     <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, eos quasi. Officiis ex quod iusto aspernatur  deleniti quam!</p>
-                    <Button buttonColor='bg-white'/>
+                    <Button buttonColor='bg-white' />
                 </div>
             </div>
             <div className='flex flex-col gap-4 px-4 md:px-36'>
