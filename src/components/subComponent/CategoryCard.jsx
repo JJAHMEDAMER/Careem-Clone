@@ -3,7 +3,7 @@ import rigthArrow from "../../assets/arrow_right.png"
 
 export const CategoryCard = ({ title, subtitle, services, bgColor, textColor }) => {
     return (
-        <div className={`${bgColor} ${textColor} relative flex-shrink-0 rounded-xl px-4 py-3 font-bold w-64 h-96`}>
+        <div className={`${bgColor} ${textColor} relative flex-shrink-0 rounded-xl px-4 py-3 font-bold w-category-card-w h-category-card-h`}>
             <h1 className="text-3xl font-black">{title}</h1>
             <h2 className="text-2xl mb-3 -mt-2">{subtitle}</h2>
             <ul>

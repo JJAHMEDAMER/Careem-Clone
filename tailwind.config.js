@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      spacing: {
+        'category-card-h': '22.5rem',
+        'category-card-w': '15.625rem'
+      },
       aspectRatio: {
         "4/3": "4 / 3",
       },
