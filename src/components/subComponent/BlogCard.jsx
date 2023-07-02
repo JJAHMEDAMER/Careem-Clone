@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from './Button'
 
 export const BlogCard = ({ imgURL, imgAlt = null, title, para }) => {
     return (
@@ -10,7 +11,7 @@ export const BlogCard = ({ imgURL, imgAlt = null, title, para }) => {
             />
             <h2 className='text-xl lg:text-3xl font-semibold'>{title}</h2>
             <p className='font-light'>{para}</p>
-            <button className='bg-white self-start px-4 py-2 font-semibold rounded-md text-sm flex-grow-0'>Read More</button>
+            <Button buttonColor='bg-white' />
         </div>
     )
 }
