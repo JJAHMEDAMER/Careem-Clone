@@ -22,28 +22,30 @@ export const Blog = () => {
     ]
     return (
         <section className='bg-shape text-gray-800'>
+            <div className='px-4 lg:px-64 mt-6'>
 
-            <div className='flex items-center justify-between px-4 mb-4'>
-                <h1 className='text-3xl font-bold'>Our Blog</h1>
-                <div className='flex items-center gap-2'>
-                    <p>View all</p>
-                    <img src={rightArrow} alt="" className='w-7' />
+                <div className='flex items-center justify-between  mb-4'>
+                    <h1 className='text-3xl font-bold'>Our Blog</h1>
+                    <div className='flex items-center gap-2'>
+                        <p>View all</p>
+                        <img src={rightArrow} alt="" className='w-7' />
+                    </div>
                 </div>
-            </div>
 
-            <div className='w=full flex gap-4 pl-4 overflow-x-auto overflow-y-hidden scroll-smooth hide-scroll-bar'>
-                {
-                    blogs.map((item, index) => (
-                        <BlogCard
-                            key={index}
-                            imgURL={item.imgURL}
-                            title={item.title}
-                            para={item.para}
-                        />
-                    ))
-                }
+                <div className='w=full flex gap-4 lg:gap-12 overflow-x-auto overflow-y-hidden scroll-smooth hide-scroll-bar'>
+                    {
+                        blogs.map((item, index) => (
+                            <BlogCard
+                                key={index}
+                                imgURL={item.imgURL}
+                                title={item.title}
+                                para={item.para}
+                            />
+                        ))
+                    }
+                </div>
+                
             </div>
-
         </section>
     )
 }
