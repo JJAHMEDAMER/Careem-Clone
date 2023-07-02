@@ -4,11 +4,11 @@ function App() {
   return (
     <div className='flex flex-col gap-6'>
       <Header />
-      <div className='px-4 lg:px-36 flex flex-col gap-6'>
+      <div className='px-4 lg:px-36 flex flex-col gap-12'>
         <HeroVideo />
         <Categories />
       </div>
-      <div className='flex flex-col gap-6'>
+      <div className='flex flex-col gap-6 mt-16'>
         <InfoSection />
         <Blog />
       </div>
