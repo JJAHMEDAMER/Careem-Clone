@@ -2,11 +2,11 @@ import React from 'react'
 
 export const InfoCard = ({ imgURL, imgAlt = null, title, para }) => {
     return (
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3 flex-shrink-0 w-64'>
             <img
                 src={imgURL}
                 alt={imgAlt}
-                className='shrink-0 flex rounded-3xl mb-5 overflow-hidden transitionFix h-full max-h-56 md:max-h-72 lg:max-h-80'
+                className='rounded-3xl mb-5'
             />
             <h2 className='text-xl font-semibold'>{title}</h2>
             <p className='font-light'>{para}</p>
