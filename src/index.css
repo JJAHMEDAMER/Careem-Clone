@@ -12,15 +12,15 @@
     src: url(./assets/font/careem_sans_semibold.otf);
 }
 
-body{
+body {
     font-family: Inter, CareemSans, Sans, sans-serif;
 }
 
-.font-careem-bold{
+.font-careem-bold {
     font-family: CareemSansBold;
 }
 
-.font-careem-semibold{
+.font-careem-semibold {
     font-family: CareemSansSemiBold;
 }
 
@@ -32,10 +32,18 @@ body{
     mask-image: url(./assets/clip.png);
     -webkit-mask-position: center;
     mask-position: center;
-    -webkit-mask-size: 100% 100%;  /*Must Set Width and Height, otherwise height is set to auto*/
+    -webkit-mask-size: 100% 100%;
+    /*Must Set Width and Height, otherwise height is set to auto*/
     mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+}
+
+@media screen and (min-width: 720px) {
+    .bg-shape {
+        -webkit-mask-image: url(./assets/clip-large.png);
+        mask-image: url(./assets/clip-large.png);
+    }
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
