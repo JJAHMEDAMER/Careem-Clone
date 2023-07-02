@@ -1,4 +1,4 @@
-import { HeroVideo, Categories, InfoSection, Blog } from './components'
+import { HeroVideo, Categories, InfoSection, Blog, Footer } from './components'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <InfoSection />
         <Blog />
       </div>
+      <Footer />
     </div>
   )
 }
