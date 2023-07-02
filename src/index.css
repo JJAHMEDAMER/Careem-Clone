@@ -3,14 +3,25 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: CareemSans;
-    src: url(./assets/font/careem_bold.otf);
+    font-family: CareemSansBold;
+    src: url(./assets/font/careem_sans_bold.otf);
 }
 
-*,
-*::after,
-*::before {
-    font-family: Montserrat, CareemSans, Sans, sans-serif;
+@font-face {
+    font-family: CareemSansSemiBold;
+    src: url(./assets/font/careem_sans_semibold.otf);
+}
+
+body{
+    font-family: Inter, CareemSans, Sans, sans-serif;
+}
+
+.font-careem-bold{
+    font-family: CareemSansBold;
+}
+
+.font-careem-semibold{
+    font-family: CareemSansSemiBold;
 }
 
 .bg-shape {
