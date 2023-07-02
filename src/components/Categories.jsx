@@ -40,17 +40,17 @@ export const Categories = () => {
         }
     ]
     return (
-        <section className="flex gap-4 scroll-smooth overflow-y-hidden">
-            {
-                categories.map((item, index) => <CategoryCard
-                    key={index}
-                    title={item.title}
-                    subtitle={item.subtitle}
-                    services={item.services}
-                    bgColor={item.bgColor}
-                    textColor={item.textColor}
-                />)
-            }
+        <section className="hide-scroll-bar flex gap-4 overflow-x-auto overflow-y-hidden">
+                {
+                    categories.map((item, index) => <CategoryCard
+                        key={index}
+                        title={item.title}
+                        subtitle={item.subtitle}
+                        services={item.services}
+                        bgColor={item.bgColor}
+                        textColor={item.textColor}
+                    />)
+                }
         </section>
     )
 }
