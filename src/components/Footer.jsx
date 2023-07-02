@@ -55,7 +55,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className='flex justify-between items-center flex-row-reverse lg:mt-10'> 
+      <div className='lg:flex justify-between items-center flex-row-reverse lg:mt-10'> 
         <div className='flex gap-12 mb-2'>
           <img src={facebookIcon} alt="facebook" />
           <img src={twitterIcon} alt="twitter" />
