@@ -66,8 +66,7 @@ export const Footer = () => {
           </ul>
         </div>
         <div className='text-xs'>
-          <p className='mb-2'>All rights reserved. Careem</p>
-          <p>2023</p>
+          <p className='mb-2'>All rights reserved. Careem © 2023</p>
         </div>
       </div>
     </footer>
