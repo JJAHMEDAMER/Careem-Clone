@@ -5,7 +5,8 @@ export default {
     extend: {
       spacing: {
         'category-card-h': '22.5rem',
-        'category-card-w': '15.625rem'
+        'category-card-w': '15.625rem',
+        'hero-video-h': '33.6875rem'
       },
       aspectRatio: {
         "4/3": "4 / 3",
